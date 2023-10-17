@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tien_ans",
+  "info": {
+    "singularName": "tien-an",
+    "pluralName": "tien-ans",
+    "displayName": "TienAn",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ngaymua": {
+      "type": "date"
+    },
+    "sotien": {
+      "type": "integer"
+    },
+    "mota": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    }
+  }
+}
